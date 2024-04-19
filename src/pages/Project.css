@@ -1,0 +1,15 @@
+.project-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #3e8e41;
+}

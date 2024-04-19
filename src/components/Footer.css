@@ -1,0 +1,13 @@
+footer {
+    background-color: #343a40;
+  }
+
+.footer-social-icons a{
+    font-size: 1.4rem;
+    color: grey;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .footer-social-icons a:hover{
+    color: white;
+  }
