@@ -25,16 +25,24 @@
 .about-button {
   display: inline-block;
   background-color: navajowhite;
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(123, 75, 3);
   color: black;
   padding: 12px 24px;
   border-radius: 4px;
   text-decoration: none;
   font-size: 18px;
   margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
   transition: background-color 0.3s ease;
 }
 
 .about-button:hover {
   background-color: rgb(123, 75, 3);
+  border: 3px;
+  border-style: solid;
+  border-color: navajowhite;
   color: white;
 }
