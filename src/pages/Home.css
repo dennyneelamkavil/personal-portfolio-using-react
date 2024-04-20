@@ -37,3 +37,10 @@
 .home-button:hover {
   background-color: #3e8e41;
 }
+
+.home-image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 30%;
+  margin-bottom: 20px;
+}

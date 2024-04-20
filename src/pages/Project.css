@@ -1,15 +1,26 @@
 .project-button {
   display: inline-block;
-  background-color: #4CAF50;
+  background-color: #2c06d4ec;
   color: #fff;
   padding: 12px 24px;
   border-radius: 4px;
   text-decoration: none;
   font-size: 18px;
   margin-top: 20px;
-  transition: background-color 0.3s ease;
+  transition: 0.4s ease;
+  box-shadow: 0px 0px 1px 1px rgb(0,0,0);
+
 }
 
 .project-button:hover {
-  background-color: #3e8e41;
+  background-color: #2c06d45b;
+  color: #0a0a23;
+}
+
+.listgroup{
+  border-style: hidden;
+  .list-group-item{
+    border-style: hidden;
+  }
+  
 }

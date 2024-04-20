@@ -1,8 +1,9 @@
-import { NavbarText } from 'react-bootstrap';
+import { NavbarBrand } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import logo from './Photos/favicon.png'
 
 function Header() {
   return (
@@ -18,7 +19,16 @@ function Header() {
             <Nav.Link as={Link} to={'/projects'}>Projects</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-            <NavbarText>My Portfolio</NavbarText>
+            <NavbarBrand>My Portfolio</NavbarBrand>
+            <NavbarBrand>
+              <img
+                src={logo}
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                alt="Logo"
+              />
+            </NavbarBrand>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -24,8 +24,8 @@
 
 .about-button {
   display: inline-block;
-  background-color: #4CAF50;
-  color: #fff;
+  background-color: navajowhite;
+  color: black;
   padding: 12px 24px;
   border-radius: 4px;
   text-decoration: none;
@@ -35,5 +35,6 @@
 }
 
 .about-button:hover {
-  background-color: #3e8e41;
+  background-color: rgb(123, 75, 3);
+  color: white;
 }

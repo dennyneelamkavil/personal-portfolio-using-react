@@ -14,7 +14,7 @@ const Projects = () => {
                         <img src={project1} alt={'project 1'} className='w-100 shadow bg-white p-4 m-4' />
                     </Col>
                     <Col md={8}>
-                        <ListGroup>
+                        <ListGroup className='listgroup'>
                             <ListGroup.Item>
                                 <h3>
                                     <b>{"Mi Store Copy"}</b>
@@ -36,7 +36,7 @@ const Projects = () => {
                         <img src={project2} alt={'project 1'} className='w-100 shadow bg-white p-4 m-4' />
                     </Col>
                     <Col md={8}>
-                        <ListGroup>
+                        <ListGroup className='listgroup'>
                             <ListGroup.Item>
                                 <h3>
                                     <b>{"Text-2-Images"}</b>
