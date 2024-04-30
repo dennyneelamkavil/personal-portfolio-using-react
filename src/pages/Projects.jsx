@@ -1,8 +1,9 @@
 import React from 'react'
 import { Col, Container, ListGroup, ListGroupItem, Row } from 'react-bootstrap'
-import project1 from './Photos/Mi Store Copy.png'
-import project2 from './Photos/Text-2-Images.png'
-import project3 from './Photos/eCom.png'
+import MiStore from './Photos/Mi Store Copy.png'
+import Text2Images from './Photos/Text-2-Images.png'
+import eCom from './Photos/eCom.png'
+import DigitalClock from './Photos/Digital Clock.png'
 import './Project.css'
 
 
@@ -12,29 +13,29 @@ const Projects = () => {
         <Container>
             <Row className='my-4'>
                 <Col md={4}>
-                    <img src={project1} alt={'project 1'} className='w-100 shadow bg-white p-4 m-4' />
+                    <img src={DigitalClock} alt={'Screenshot of the website "Digital Clock"'} className='w-100 shadow bg-white p-4 m-4' />
                 </Col>
                 <Col md={8}>
                     <ListGroup className='listgroup'>
                         <ListGroup.Item>
                             <h3>
-                                <b>{"Mi Store Copy"}</b>
+                                <b>{"Digital Clock"}</b>
                             </h3>
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h4>
-                                {"This project is completed as a part of learning HTML and CSS"}
+                                {`This digital clock is a minimalist web application displays the current time accurately.Simple Interface,Real-Time Updates,Responsive Design are some of the key features and it is developed using HTML, CSS, and JavaScript.`}
                             </h4>
                         </ListGroup.Item>
                         <ListGroupItem>
-                            <a href="https://dennyneelamkavil.github.io/Mi-Store/" target="_blank" rel="noopener noreferrer" className="project-button">Check out Project</a>
+                            <a href="https://digitalclockbydenny.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-button">Check out Project</a>
                         </ListGroupItem>
                     </ListGroup>
                 </Col>
             </Row>
             <Row className='my-4'>
                 <Col md={4}>
-                    <img src={project2} alt={'project 2'} className='w-100 shadow bg-white p-4 m-4' />
+                    <img src={Text2Images} alt={'Screenshot of the website "Text-2-Images"'} className='w-100 shadow bg-white p-4 m-4' />
                 </Col>
                 <Col md={8}>
                     <ListGroup className='listgroup'>
@@ -56,7 +57,7 @@ const Projects = () => {
             </Row>
             <Row className='my-4'>
                 <Col md={4}>
-                    <img src={project3} alt={'project 3'} className='w-100 shadow bg-white p-4 m-4' />
+                    <img src={eCom} alt={'Screenshot of the website "eCom"'} className='w-100 shadow bg-white p-4 m-4' />
                 </Col>
                 <Col md={8}>
                     <ListGroup className='listgroup'>
@@ -77,6 +78,28 @@ const Projects = () => {
                         </ListGroup.Item>
                         <ListGroupItem>
                             <a href="https://dennynj-ecom.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-button">Check out Project</a>
+                        </ListGroupItem>
+                    </ListGroup>
+                </Col>
+            </Row>
+            <Row className='my-4'>
+                <Col md={4}>
+                    <img src={MiStore} alt={'Screenshot of the website "Mi Store Copy"'} className='w-100 shadow bg-white p-4 m-4' />
+                </Col>
+                <Col md={8}>
+                    <ListGroup className='listgroup'>
+                        <ListGroup.Item>
+                            <h3>
+                                <b>{"Mi Store Copy"}</b>
+                            </h3>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <h4>
+                                {"This project is completed as a part of learning HTML and CSS"}
+                            </h4>
+                        </ListGroup.Item>
+                        <ListGroupItem>
+                            <a href="https://dennyneelamkavil.github.io/Mi-Store/" target="_blank" rel="noopener noreferrer" className="project-button">Check out Project</a>
                         </ListGroupItem>
                     </ListGroup>
                 </Col>
