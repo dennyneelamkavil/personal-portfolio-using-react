@@ -92,7 +92,7 @@ function Contact() {
   return (
     <Container>
       <Row className='justify-content-center'>
-        <Col md={6}>
+        <Col md={8} lg={6}>
           <div className='shadow bg-white p-4 m-4' onSubmit={handleSubmit}>
             <form className='form-container my-4'>
               <h2 className='contact-title'>Contact Me</h2>

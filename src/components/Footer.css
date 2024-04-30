@@ -1,6 +1,9 @@
-footer {
-    background-color: #343a40;
-  }
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4%;
+}
 
 .footer-social-icons a{
     font-size: 1.4rem;

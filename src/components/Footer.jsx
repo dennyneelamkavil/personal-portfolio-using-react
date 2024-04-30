@@ -5,7 +5,7 @@ import { FaWhatsapp, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-white text-center py-3 d-flex flex-row justify-content-around" >
+        <footer className="footer bg-dark text-white text-center" >
             <div>
                 <b> All Rights Reserved <br></br> &copy; <br></br> 2024 Denny N J </b>
             </div>
