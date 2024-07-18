@@ -4,6 +4,7 @@ import MiStore from './Photos/Mi Store Copy.png'
 import Text2Images from './Photos/Text-2-Images.png'
 import eCom from './Photos/eCom.png'
 import DigitalClock from './Photos/Digital Clock.png'
+import EcomFullstack from './Photos/ECOM-FullStack.png'
 import './Project.css'
 
 
@@ -11,6 +12,28 @@ import './Project.css'
 const Projects = () => {
     return (
         <Container>
+            <Row className='my-4'>
+                <Col md={4}>
+                    <img src={EcomFullstack} alt={'Screenshot of the website "Ecom Admin Dashboard"'} className='w-100 shadow bg-white p-4 m-4' />
+                </Col>
+                <Col md={8}>
+                    <ListGroup className='listgroup'>
+                        <ListGroup.Item>
+                            <h3>
+                                <b>{"Ecom Admin Dashboard"}</b>
+                            </h3>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <h4>
+                                {`A full-stack e-commerce website that integrates the front-end, back-end, and database. It features a user-friendly dashboard for adding, editing, and deleting products, with images stored on Cloudinary.`}
+                            </h4>
+                        </ListGroup.Item>
+                        <ListGroupItem>
+                            <a href="https://ecom-project-fullstack.onrender.com" target="_blank" rel="noopener noreferrer" className="project-button">Check out Project</a>
+                        </ListGroupItem>
+                    </ListGroup>
+                </Col>
+            </Row>
             <Row className='my-4'>
                 <Col md={4}>
                     <img src={DigitalClock} alt={'Screenshot of the website "Digital Clock"'} className='w-100 shadow bg-white p-4 m-4' />
