@@ -8,8 +8,7 @@
   font-size: 18px;
   margin-top: 20px;
   transition: 0.4s ease;
-  box-shadow: 0px 0px 1px 1px rgb(0,0,0);
-
+  box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
 }
 
 .project-button:hover {
@@ -17,10 +16,9 @@
   color: #0a0a23;
 }
 
-.listgroup{
+.listgroup {
   border-style: hidden;
-  .list-group-item{
+  .list-group-item {
     border-style: hidden;
   }
-  
 }

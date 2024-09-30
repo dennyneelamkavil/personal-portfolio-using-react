@@ -1,16 +1,16 @@
-.footer{
+.footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 4%;
 }
 
-.footer-social-icons a{
-    font-size: 1.4rem;
-    color: grey;
-    margin-right: 10px;
-    text-decoration: none;
-  }
-  .footer-social-icons a:hover{
-    color: white;
-  }
+.footer-social-icons a {
+  font-size: 1.4rem;
+  color: grey;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.footer-social-icons a:hover {
+  color: white;
+}
