@@ -5,11 +5,74 @@ import Text2Images from "./Photos/Text-2-Images.png";
 import eCom from "./Photos/eCom.png";
 import DigitalClock from "./Photos/Digital Clock.png";
 import EcomFullstack from "./Photos/ECOM-FullStack.png";
+import MoviePass from "./Photos/moviepass.png";
 import "./Project.css";
 
 const Projects = () => {
   return (
     <Container>
+      <Row className="my-4">
+        <Col md={4}>
+          <img
+            src={MoviePass}
+            alt={'Screenshot of the website "MoviePass"'}
+            className="w-100 shadow bg-white p-4 m-4"
+          />
+        </Col>
+        <Col md={8}>
+          <ListGroup className="listgroup">
+            <ListGroup.Item>
+              <h3>
+                <b>{"Movie Pass"}</b>
+              </h3>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <h4>
+                <p>
+                  The full-stack application comprises the Admin Dashboard,
+                  Theater Owner Dashboard, and User Dashboard, all integrated
+                  within the same URL and differentiated by distinct login
+                  credentials. You can access the different dashboards using the
+                  following credentials:
+                </p>
+                <ul>
+                  <li>
+                    <b>Admin</b>
+                    <br />
+                    Email: admin@gmail.com
+                    <br />
+                    Password: 123456
+                  </li>
+                  <li>
+                    <b>Theater Owner</b>
+                    <br />
+                    Email: keshu@gmail.com
+                    <br />
+                    Password: 123456
+                  </li>
+                  <li>
+                    <b>Regular User</b>
+                    <br />
+                    Email: dennynj4748@gmail.com
+                    <br />
+                    Password: 123456
+                  </li>
+                </ul>
+              </h4>
+            </ListGroup.Item>
+            <ListGroupItem>
+              <a
+                href="https://moviepass-dennynj.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-button"
+              >
+                Check out Project
+              </a>
+            </ListGroupItem>
+          </ListGroup>
+        </Col>
+      </Row>
       <Row className="my-4">
         <Col md={4}>
           <img
